@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+/* seting colors*/
+:root {
+  --myblue: #49bdd7;
+  --white: #fff;
+  --hovercolormyblue:#39b1cc;
+}
+/* main container css */
+.main-login-form-conatiner {
+  position: fixed;
+ background-color: var(--white);
+  top: 23%;
+  left: 23%;
+  border: 2px solid var(--white);
+  width: 760px;
+  box-shadow: 0px 25px 20px -20px rgba(0,0,0,0.45);
+  
+}
+/*second main container*/
+.second-main-login-form-container {
+  display: flex;
+}
+/*picture part of form*/
+.sub-picture-login-conatiner {
+  max-width: 330px;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background: url('../images/black_girl_child_smiling.jpg');
+  background-position: right;
+  padding: 3px;
+ 
+}
+.sub-picture-login-conatiner p{
+  font-weight: 500;
+}
+.second-main-login-form-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+/*form part of the form */
+.sub-form-login-conatiner {
+  width: 100%;
+  padding: 35px;
+}
+
+form .input-field {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+form .input-field input {
+  width: 100%;
+  height: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 0.95rem;
+  padding: 0 15px;
+  outline: none;
+  transition: 0.2 ease;
+}
+.icon {
+  transition: 0.2 ease;
+}
+form .input-field input:focus {
+  border-color: var(--myblue);
+}
+form .input-field input:is(:focus) ~ .icon {
+  color: var(--myblue);
+}
+/*the link part*/
+.second-main-login-form-container a {
+  color: var(--myblue);
+  text-decoration: none;
+}
+.second-main-login-form-container a:hover {
+  text-decoration: underline;
+
+}
+.buttom-link{
+    text-align: center;
+}
+/*form button*/
+form button{
+width: 100%;
+outline: none;
+border: none;
+font-size: 1rem;
+font-weight: 500;
+padding: 14px 0;
+border-radius: 3px;
+background-color: var(--myblue);
+color: var(--white);
+margin: 25px 0 ;
+transition: 0.2 ease-in;
+cursor: pointer;
+
+}
+form button:hover{
+  background-color:var(--hovercolormyblue) ;
+ 
+}
