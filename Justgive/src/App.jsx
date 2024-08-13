@@ -1,4 +1,6 @@
-import Login from "./components/Login and Registration/Login"
+
+import LoginPage from "./components/Login and Registration/LoginPage"
+import Signup from "./components/Login and Registration/Signup"
 
 
 
@@ -9,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-      <Login/>
+    <Signup/>
     </div>
   )
 }

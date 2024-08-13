@@ -1,0 +1,15 @@
+.bottom-text{
+    display: flex;
+    width: 100%;
+    padding: 15px 0;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+
+}
+.bottom-text b{
+    color: var(--myblue);
+    border-right:3px solid var(--myblue) ;
+    padding: 0 5px;
+}

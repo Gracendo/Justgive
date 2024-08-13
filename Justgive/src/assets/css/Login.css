@@ -62,7 +62,7 @@ form .input-field {
   margin-top: 20px;
 }
 
-form .input-field input {
+form .input-field input,form .input-field select {
   width: 100%;
   height: 100%;
   border-top: none;
@@ -82,6 +82,12 @@ form .input-field input:focus {
 form .input-field input:is(:focus) ~ .icon {
   color: var(--myblue);
 }
+form .input-field select:focus {
+    border-color: var(--myblue);
+  }
+  form .input-field select:is(:focus) ~ .icon {
+    color: var(--myblue);
+  }
 /*the link part*/
 .second-main-login-form-container a {
   color: var(--myblue);
@@ -113,4 +119,8 @@ cursor: pointer;
 form button:hover{
   background-color:var(--hovercolormyblue) ;
  
+}
+.phone_gender{
+    display: flex;
+    justify-content: space-between;
 }

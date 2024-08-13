@@ -6,8 +6,7 @@ import "../../assets/css/Login.css";
 import { FaEnvelope } from "react-icons/fa";
 import { FaLock } from "react-icons/fa6";
 
-/*import of image */
-import Child from "../../assets/images/register_form_img_child.jpg";
+
 
 export default function Login() {
   return (
@@ -22,10 +21,10 @@ export default function Login() {
             <h2>LOGIN</h2>
             <form action="" method="POST">
               <div className="input-field">
-                <input type="text" placeholder="Email" /> <FaEnvelope className="icon" />
+                <input type="text" placeholder="Email" required /> <FaEnvelope className="icon" />
               </div>
               <div className="input-field">
-                <input type="text" placeholder="Password" /> <FaLock className="icon" />
+                <input type="text" placeholder="Password" required /> <FaLock className="icon" />
               </div>
               <button type="submit" className="login-form-login-button">
                 {" "}
