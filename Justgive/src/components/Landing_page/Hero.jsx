@@ -5,11 +5,11 @@ import { NavLink } from "react-router-dom";
 
 export default function Hero() {
   return (
-    <div>
-      <div className="container">
+    <div className="min-h-screen">
+      <div className="containner">
         <div className="text">
           <h1>Help Orphans With Justgive</h1>
-          
+
           <p>
             With just a few taps on your phone you can donate to someone in need
             and change his life. Help orphans by donating or volunteering on{" "}

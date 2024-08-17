@@ -11,8 +11,8 @@ import Value from "./components/Landing_page/Value";
 function App() {
   return (
     <>
+      <Navigation />
       <div className="App">
-        <Navigation />
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/Value" element={<Value />} />

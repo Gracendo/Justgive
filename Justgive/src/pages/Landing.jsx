@@ -8,20 +8,13 @@ import Vision from "../components/Landing_page/Vision";
 
 export default function Landing() {
   return (
-    <div>
+    <div className="bg-[#f3f3f3] ">
       <Hero />
-      <Objectives/>
-      {/*
-     
-
-      <h2 id="vision">
-        Vision
-      </h2>
-      <Vision/>
-      <h2>
-        Values
-      </h2>
-      <Value/> */}
+      <div className="max-w-[85rem] mx-auto">
+        <Objectives />
+        <Value />
+        <Vision />
+      </div>
     </div>
   );
 }

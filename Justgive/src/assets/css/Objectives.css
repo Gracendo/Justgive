@@ -4,6 +4,7 @@
   height: 160vh;
   /* border: 5px solid red; */
 }
+
 .text_objectives {
   width: 100%;
   text-align: center;
@@ -13,26 +14,33 @@
   color: #000;
   /* border: 5px solid blue; */
 }
+
 .text_objectives h2 {
   color: var(--myblue);
   font-size: 3rem;
   font-weight: bold;
 }
+
 .text_objectives .summary {
   font-size: 1.4rem;
   padding: 1rem 0;
-  font-weight: 400;
+  font-weight: 500;
+  opacity: 0.5;
+  margin-bottom: 20px;
 }
+
 .text_objectives .explanation {
   font-size: 1.1rem;
   padding: 1rem 8rem;
 }
+
 .img_container {
   display: flex;
   justify-content: center;
   width: 100%;
   /* border: 5px solid green; */
 }
+
 .child_img {
   border-radius: 3rem;
   width: 65%;
@@ -40,6 +48,7 @@
   image-rendering: optimizeQuality;
   z-index: 1;
 }
+
 .motivation {
   border-radius: 2rem;
   border: 2px solid var(--myblue);
@@ -53,13 +62,16 @@
     rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
     rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
+
 .motivation h3 {
   font-size: 1.4rem;
   font-weight: 400;
 }
+
 .motivation .summary {
   font-size: 1.1rem;
 }
+
 .motivation:hover {
   background: rgb(73, 189, 215);
   color: #fff;
