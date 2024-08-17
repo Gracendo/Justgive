@@ -1,10 +1,10 @@
 .top-text{
     display: flex;
     width: 100%;
-    padding: 15px 0;
     position: fixed;
     justify-content: center;
     align-items: center;
     top: 0;
-
+    margin: 30px 0;
+    height: 100px;
 }

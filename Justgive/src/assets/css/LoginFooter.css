@@ -6,10 +6,15 @@
     justify-content: center;
     align-items: center;
     bottom: 0;
+    margin-top: 10px;
 
 }
 .bottom-text b{
     color: var(--myblue);
     border-right:3px solid var(--myblue) ;
     padding: 0 5px;
+}
+.bottom-text p{
+    display: flex;
+    align-items: center;
 }

@@ -8,7 +8,7 @@
 :root {
   --myblue: #49bdd7;
   --white: #fff;
-  --hovercolormyblue:#39b1cc;
+  --hovercolormyblue:#229fbb;
 }
 /* main container css */
 .main-login-form-conatiner {
@@ -18,7 +18,7 @@
   left: 23%;
   border: 2px solid var(--white);
   width: 760px;
-  box-shadow: 0px 25px 20px -20px rgba(0,0,0,0.45);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   
 }
 /*second main container*/
