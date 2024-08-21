@@ -4,6 +4,7 @@ import Hero from "../components/Landing_page/Hero";
 import Objectives from "../components/Landing_page/Objectives";
 import Value from "../components/Landing_page/Value";
 import Vision from "../components/Landing_page/Vision";
+import CallToAction from "../components/Landing_page/CallToAction";
 
 
 export default function Landing() {
@@ -14,6 +15,7 @@ export default function Landing() {
         <Objectives />
         <Value />
         <Vision />
+        <CallToAction/>
       </div>
     </div>
   );
