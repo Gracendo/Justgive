@@ -10,7 +10,7 @@ const CallToAction = () => {
             <div className='w-full'>
                 <div className='w-full shadow '>
                     <div>
-                        <img src={require('../../assets/images/poor_black_children_smiling.png')} alt="pbcs" />
+                        {/* <img src={require('../../assets/images/poor_black_children_smiling.png')} alt="pbcs" /> */}
                     </div>
                     <div>
                         <div>
